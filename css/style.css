@@ -78,7 +78,7 @@
 }
 
 .firstSection{
-    height: 100vh;
+    height: 80vh;
 }
 
 .firstHalf{
@@ -102,7 +102,7 @@
 }
 
 .text-big{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .text-small{
@@ -124,4 +124,17 @@
     padding: 4px 4px;
     vertical-align: middle;
  
+}
+
+.secRight{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin:auto;
+}
+
+.paras{
+    padding: 65px;
 }
