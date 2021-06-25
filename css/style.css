@@ -76,6 +76,7 @@
     max-width: 65%;
     margin: auto;
     height: 50%;
+    
 }
 
 .firstSection{
@@ -105,6 +106,7 @@
 
 .text-big{
     font-size: 40px;
+    padding: 16px 0px;
 }
 
 .text-small{
@@ -136,7 +138,17 @@
     max-width: 80%;
     margin:auto;
     font-family: 'Ubuntu', sans-serif;
+    background-color: burlywood;
 }
+
+.contactsection{
+    height: 625px;
+    max-width: 80%;
+    margin:auto;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(252, 225, 191);
+}
+
 
 .left{
     flex-direction: row-reverse;
@@ -150,4 +162,31 @@
     border: 5px solid black;
     border-radius: 20px;
 }
+.text-center{
+    text-align: center;
+    padding-top: 10px;
+}
 
+.form{
+    max-width: 1000px;
+    margin:auto;
+}
+.form-input{
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 20px;
+    border: 3px sold gray;
+    border-radius: 6px;
+    padding: 5px 3px;
+}
+.btn-contact{
+    padding: 8px 20px;
+    border-color: rgb(3, 0, 0);
+    border-radius: 100px;
+    margin: 7px 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(10, 0, 0);
+    background-color: rgb(224, 155, 64);
+    cursor: pointer;
+}
