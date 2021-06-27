@@ -3,10 +3,13 @@
     margin:0;
     padding:0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .logo{
     display: flex;
-    width: 20%;
+    width: 15%;
     justify-content: center;
     align-items: center;
 }
@@ -25,14 +28,17 @@
     position:sticky;
     top:0;
     cursor: pointer;
+    
 }
 
 .nav-list{
-    width:50%;
+    width:70%;
     display: flex;
     align-items: center;
 }
-
+/* .head{
+    opacity:0;
+} */
 .nav-list li{
     padding: 22px 20px;
     list-style: none;
@@ -41,6 +47,8 @@
 .nav-list li a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-list li a:hover{
@@ -49,7 +57,7 @@
 }
 
 .rightNav{
-    width:50%;
+    width:30%;
     text-align: right;
     padding: 0 23px;
     
@@ -96,21 +104,27 @@
 }
 
 .secondHalf img{
-    width: 150%;
+    width: 80%;
     border: 4px solid white;
     border-radius: 500px;
     display: block;
     margin:auto;
-    margin-top: 180px;
+    margin-top: 40px;
 }
 
 .text-big{
     font-size: 40px;
-    padding: 16px 0px;
+    padding-top: 50px;
+}
+
+.text-big-main-box{
+    font-size: 40px;
+    padding-top: 50px;
 }
 
 .text-small{
     font-size: 20px;
+    text-align: justify;
 }
 
 .btn{
@@ -127,12 +141,12 @@
 .btn-sm{
     padding: 4px 4px;
     vertical-align: middle;
+    font-size: 16px;
  
 }
 
 .section{
     display: flex;
-    height: 500px;
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
@@ -168,7 +182,7 @@
 }
 
 .form{
-    max-width: 1000px;
+    max-width: 62%;
     margin:auto;
 }
 .form-input{
@@ -185,8 +199,76 @@
     border-radius: 100px;
     margin: 7px 3px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(10, 0, 0);
     background-color: rgb(224, 155, 64);
     cursor: pointer;
+}
+
+.text-footer{
+    text-align: center;
+    font-size: 15px;
+    padding: 30px 0px;
+    color: white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media screen and (max-width:1020px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height:480px;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height:72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .text-big-main-box{
+        margin-top: 200px;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: justify;
+    }
+    /* .vn-class-resp{
+        opacity:100;
+        color: white;
+    } */
 }

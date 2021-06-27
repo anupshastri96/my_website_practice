@@ -5,34 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>iEducate - Transforming Online Education</title>
+    <title>Shelgi Mitra Mandal Website</title>
 </head>
 
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img src="img/love_solapur.jpg" alt="logo"></div>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#service">Service</a></li>
-            <li><a href="#contacts">Contact Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>            
         </ul>
-        <div class="rightNav">
+        <div class="rightNav v-class-resp">
             <input type="text" name="search" id="search">
             <button class="btn btn-sm">Search</button>
+        </div>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
     <section class="background firstSection">
         <div class="box-main">
             <div class="firstHalf">
-                <p class="text-big">
+                <p class="text-big-main-box">
                     Welcome to Shelgi Mitra Mandal Website</p><br>
                 <p class="text-small">
-                    Shelgi is a in Solapur North City in Maharashtra State, India. 
-                    It belongs to Desh or Paschim Maharashtra region. 
+                    Shelgi is a in Solapur North City in Maharashtra State, India.
+                    It belongs to Desh or Paschim Maharashtra region.
                     It is belongs to Pune Division.
                     Shelgi Pin code is 413002 and postal head office is Solapur Mkt.
-                    Siddheshwar Society , State Bank Colony , Rangraj Nagar , Old Rangraj Nagar , Shri Ram Krishna Nagar are the nearby Localities to Shelgi.
+                    Siddheshwar Society , State Bank Colony , Rangraj Nagar , Old Rangraj Nagar , Shri Ram Krishna Nagar
+                    are the nearby Localities to Shelgi.
                 </p>
                 <div class="buttons">
                     <button class="btn">Google Map</button>
@@ -41,16 +48,16 @@
 
             </div>
             <dic class="secondHalf">
-                <img src="img/Shelgi.JPG"
-                    alt="Laptop-Image">
+                <img src="img/Shelgi.JPG" alt="Laptop-Image">
             </dic>
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="about">
         <div class="paras">
             <p class="sectionTag text-big">Anup Shastri - Senior Software Developer At Persistent</p>
-            <p class="sectionSubTag text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptas,
+            <p class="sectionSubTag text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+                voluptas,
                 quaerat dignissimos, fugit provident eius exercitationem corrupti autem architecto aspernatur voluptate!
                 Obcaecati quia nostrum id eveniet dolorem natus voluptatem aliquid!Lorem Lorem ipsum dolor, sit amet
                 consectetur adipisicing elit. Quidem minima fugiat quasi sed earum similique. Itaque, dicta consectetur
@@ -64,7 +71,8 @@
     <section class="section left">
         <div class="paras">
             <p class="sectionTag text-big">Ganesh Umadi- Chartered Accountant </p>
-            <p class="sectionSubTag text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptas,
+            <p class="sectionSubTag text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+                voluptas,
                 quaerat dignissimos, fugit provident eius exercitationem corrupti autem architecto aspernatur voluptate!
                 Obcaecati quia nostrum id eveniet dolorem natus voluptatem aliquid!Lorem Lorem ipsum dolor, sit amet
                 consectetur adipisicing elit. Quidem minima fugiat quasi sed earum similique. Itaque, dicta consectetur
@@ -78,7 +86,8 @@
     <section class="section">
         <div class="paras">
             <p class="sectionTag text-big">Himanshu Vyas - Support Engineer at Fiserv</p>
-            <p class="sectionSubTag text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptas,
+            <p class="sectionSubTag text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+                voluptas,
                 quaerat dignissimos, fugit provident eius exercitationem corrupti autem architecto aspernatur voluptate!
                 Obcaecati quia nostrum id eveniet dolorem natus voluptatem aliquid!Lorem Lorem ipsum dolor, sit amet
                 consectetur adipisicing elit. Quidem minima fugiat quasi sed earum similique. Itaque, dicta consectetur
@@ -92,7 +101,8 @@
     <section class="section left">
         <div class="paras">
             <p class="sectionTag text-big">Siddhesh Patne - Front End Developer at Capgemini</p>
-            <p class="sectionSubTag text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptas,
+            <p class="sectionSubTag text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+                voluptas,
                 quaerat dignissimos, fugit provident eius exercitationem corrupti autem architecto aspernatur voluptate!
                 Obcaecati quia nostrum id eveniet dolorem natus voluptatem aliquid!Lorem Lorem ipsum dolor, sit amet
                 consectetur adipisicing elit. Quidem minima fugiat quasi sed earum similique. Itaque, dicta consectetur
@@ -103,17 +113,25 @@
         </div>
     </section>
     <hr>
-    <section class="contactsection">
+    <section class="contactsection" id="contact">
 
         <h2 class="text-center">Contact Us</h2>
         <div class="form">
             <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Name">
             <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Phone Number">
             <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Email id">
-            <textarea class="form-input" name="text" id="text" cols="30" rows="8" placeholder="Ellaborate your concern"></textarea> 
-            <button class="btn-contact">Submit</button>
+            <textarea class="form-input" name="text" id="text" cols="30" rows="8"
+                placeholder="Ellaborate your concern"></textarea>
+            <button class="btn-contact btn-sm">Submit</button>
         </div>
     </section>
+
+    <footer>
+        <p class="text-footer background">
+            Copyright &copy; 2027 - All right reserved
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
 </body>
 
 </html>
